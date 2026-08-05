@@ -1,44 +1,11 @@
-# HTML Hello
+# README
 
-El boilerplate más básico para cualquier estudiante de 4Geeks Academy, empieza tu primer sitio web desde cero.
+## Plataforma de Alquiler de Agentes IA — Prototipo de Panel de Administración
 
-> Tienes un video tutorial sobre [cómo usar esta plantilla para crear tu primer sitio web aquí](https://youtu.be/dfbDCMu_p-0).
+### 🎯 Tu reto
 
-## ¿Qué hacer a continuación?
+Una startup llamada **AgentHub** está construyendo una plataforma SaaS donde las empresas pueden alquilar agentes de IA — asistentes inteligentes preconfigurados que pueden equiparse con distintas *skills* (habilidades como navegar por la web, leer documentos o gestionar calendarios) y desplegarse para tareas de negocio específicas.
 
-Crea un archivo `index.html` con [la estructura básica de HTML](https://4geeks.com/es/lesson/what-is-html-learn-html-es#estructura-de-pgina) y ve el resultado en vivo corriendo un servidor web utilizando el siguiente comando:
+El equipo fundador tiene un backend funcional y una idea aproximada de cómo debería ser su panel de administración interno, pero nadie tiene tiempo para construirlo. Te han contratado como desarrollador frontend freelance. Tu primer entregable es un **prototipo HTML completamente diseñado** del panel de administración — algo que el equipo pueda revisar, validar y entregar a los desarrolladores de backend más adelante.
 
-```bash
-$ pip3 install flask && python3 server.py
-```
-
-- Puedes crear tantos archivos HTML cómo desees.
-- También puedes crear archivos CSS e importarlos en tu página web utilizando una etiqueta `<link>` ubicándola entre las etiquetas `<head></head>`, de la siguiente manera:
-
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
-
-- Si deseas usar Tailwind CSS, agrégalo de forma opcional mediante el CDN oficial de Tailwind CSS v4 dentro del mismo `<head>`:
-
-```html
-<head>
-  ...
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
-
-
-## Agradecimientos
-
-Esta y otras plantillas son utilizadas para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp). 
-
-Realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. 
-
-Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero/?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/desarrollador-full-stack/desarrollador-full-stack), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+Antes de escribir una sola línea de HTML, tendrás que producir un **documento de especificación** — una descripción estructurada de lo que vas a construir, escrita con suficiente detalle como para que un agente de código IA (u otro desarrollador) pueda implementarlo desde cero sin hacer preguntas. Esto sigue un enfoque de *Vision to spec*: defines el qué y las reglas antes de empezar a construir. La spec no es un trámite — es tu contrato con el código.
